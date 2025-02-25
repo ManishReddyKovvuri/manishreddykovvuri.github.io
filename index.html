@@ -1,117 +1,344 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Reddy Kovvuri - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/@lucide/web/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <div class="min-h-screen bg-gray-50">
+        <!-- Header/Hero Section -->
+        <header class="relative bg-white shadow-sm">
+            <!-- Background Image with Overlay -->
+            <div 
+                class="absolute inset-0 z-0 bg-cover bg-center"
+                style="background-image: url('https://images.unsplash.com/photo-1579547621706-1a9c79d5c9f1?q=80&w=2000&auto=format&fit=crop');"
+            >
+                <div class="absolute inset-0 bg-gray-900/70"></div>
+            </div>
 
-    <html>
-
-        <head>
-
-            <title>DeepSea</title>
-
-            <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-
-            <link rel="stylesheet" type="text/css" href="refer/css/grid.css">
-
-            <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300i&display=swap" rel="stylesheet">
-
-            <link rel="stylesheet" type="text/css" href="refer/css/normalise.css">
-            <link rel="stylesheet" type="text/css" href="refer/css/ionicons.min.css">
-
- 
-
-        </head>
-
-        <body>    
-
-            <header>
-
-                <div class="heading">
-                    
-
-                    <h1>Life in the Marina</h1>
-
-                    <a class="button more" href="https://en.wikipedia.org/wiki/Mariana_Trench"target="_blank">Show me more</a>
-
+            <!-- Content -->
+            <div class="relative z-10 max-w-5xl mx-auto px-4 py-16">
+                <h1 class="text-4xl font-bold text-white mb-4">Manish Reddy Kovvuri</h1>
+                <div class="flex items-center gap-6 text-gray-200 mb-6">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="map-pin"></i>
+                        <span>Atlanta, GA</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="mail"></i>
+                        <a href="mailto:kovvurimanish@gmail.com" class="hover:text-blue-300">kovvurimanish@gmail.com</a>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="calendar"></i>
+                        <span>703-477-7971</span>
+                    </div>
                 </div>
-
-                    <a class="button login" href="#">Login </a>
-
-                    <a class="button signup" href="signup.html">Signup</a>
-
-            </header>
-
-           
-
-            <section class="section">
-
-               
-
-                <div class="row">  
-
-                    <div class= "col span-1-of-3">
-
-                      
-
-                        <h2>Coral Life</h2>
-
-                        <p>Corals are marine invertebrates within the class Ant
-
-                            hozoa of the phylum Cnidaria. They typically live incompact
-
-                            colonies of many identical individual polyps.
-
-                            Corals species include the important reef builders
-
-                            that inhabit tropical oceans and secrete calcium carbonate
-
-                            to form a hard skeleton.</p>
-
-                    </div>
-
-                    <div class= "col span-2-of-3">
-
-                       <h2>Threats</h2>
-
-                        <p>Coral reefs are under stress around the world.[45] In particular, coral
-
-                            mining, agricultural and urban runoff,
-
-                            pollution (organic and inorganic), overfishing, blast fishing, disease,
-
-                            and the digging of canals and access
-
-                            into islands and bays are localized threats to coral ecosystems.
-
-                       
-
-                    </div>
-
-                  
-
-                    <div class= "col span-3-of-3">
-
-                        <h2> Protection</h2>
-
-                        <p>Marine Protected Areas, Biosphere reserves, marine parks, national monuments world heritage status, fishery
-
-                            management and habitat protection can protect reefs from anthropogenic damage</p>
-
-                        
-
-                       
-
-                    </div>
-
+                <div class="flex gap-4">
+                    <a href="https://linkedin.com/in/manishreddykovvuri" class="text-gray-200 hover:text-blue-300">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="https://github.com/ManishReddyKovvuri" class="text-gray-200 hover:text-white">
+                        <i data-lucide="github"></i>
+                    </a>
                 </div>
+            </div>
+        </header>
 
+        <main class="max-w-5xl mx-auto px-4 py-12">
+            <!-- Experience Section -->
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-gray-900 mb-8">Experience</h2>
+                
+                <div class="space-y-8">
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">SDE</h3>
+                                <p class="text-gray-600">Appridat Solutions</p>
+                            </div>
+                            <div class="text-gray-500">Apr 2024 - Present</div>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Develop and maintain scalable web applications using Java and JavaScript frameworks</li>
+                            <li>Worked on AWS Cloud Watch and AWS ALB for Load Balancing</li>
+                            <li>Implement robust solutions utilizing AWS cloud infrastructure</li>
+                            <li>Integrated Amazon RDS multi cluster for MySQL database provisioning</li>
+                            <li>Established CICD pipeline using Amazon CodePipeline</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">SDE</h3>
+                                <p class="text-gray-600">TekLeaders INC</p>
+                            </div>
+                            <div class="text-gray-500">Sep 2023 - Apr 2024</div>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Conducted detailed code reviews improving code quality by 67%</li>
+                            <li>Automated deployment workflows using Git, Jenkins, and Docker</li>
+                            <li>Optimized complex multi-join SQL queries improving performance by 20%</li>
+                            <li>Incorporated ActiveMQ for distributed message processing</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">Program Analyst/Java Developer</h3>
+                                <p class="text-gray-600">Cognizant</p>
+                            </div>
+                            <div class="text-gray-500">Jan 2019 - Nov 2021</div>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Leveraged AngularJS to design intuitive vendor dashboards</li>
+                            <li>Built server-side Java components and web services</li>
+                            <li>Developed solutions on AWS using EC2, S3, and Lambda</li>
+                            <li>Orchestrated API development using Java and RESTful services</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
-          
+            <!-- Projects Section -->
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-gray-900 mb-8">Projects</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+                        <div class="h-48 overflow-hidden">
+                            <img 
+                                src="https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1000&auto=format&fit=crop" 
+                                alt="Email Security"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <a 
+                                        href="https://github.com/ManishReddyKovvuri/Phishing-Guard" 
+                                        class="text-xl font-semibold text-blue-600 hover:text-blue-800 hover:underline"
+                                    >
+                                        PhishingGuard: Email Phishing Detection Tool
+                                    </a>
+                                    <p class="text-gray-600">Python, Flask, TensorFlow, Selenium</p>
+                                </div>
+                                <div class="text-gray-500">Dec 2024</div>
+                            </div>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Developed an advanced tool to detect phishing or scam links in emails</li>
+                                <li>Implemented real-time link analysis using algorithms to detect phishing patterns</li>
+                                <li>Scanned email content using NLP to identify suspicious patterns</li>
+                                <li>Built user alert systems for instant notifications</li>
+                            </ul>
+                        </div>
+                    </div>
 
-        </body>
+                    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+                        <div class="h-48 overflow-hidden">
+                            <img 
+                                src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1000&auto=format&fit=crop" 
+                                alt="Financial Analysis"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <a 
+                                        href="https://github.com/ManishReddyKovvuri" 
+                                        class="text-xl font-semibold text-blue-600 hover:text-blue-800 hover:underline"
+                                    >
+                                        Financial Time Series Analysis
+                                    </a>
+                                    <p class="text-gray-600">R, ARIMA Modeling</p>
+                                </div>
+                                <div class="text-gray-500">Jan 2023</div>
+                            </div>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Applied R to analyze and forecast the S&P 500 stock index</li>
+                                <li>Employed ARIMA(1,0,1) modeling for predictions</li>
+                                <li>Simulated investment scenarios to evaluate probability of losses</li>
+                            </ul>
+                        </div>
+                    </div>
 
- 
+                    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+                        <div class="h-48 overflow-hidden">
+                            <img 
+                                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1000&auto=format&fit=crop" 
+                                alt="Big Data"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <a 
+                                        href="https://github.com/ManishReddyKovvuri" 
+                                        class="text-xl font-semibold text-blue-600 hover:text-blue-800 hover:underline"
+                                    >
+                                        Big Data Analysis using Hadoop & Spark
+                                    </a>
+                                    <p class="text-gray-600">Hadoop, Spark, HDFS</p>
+                                </div>
+                                <div class="text-gray-500">May 2023</div>
+                            </div>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Analyzed large datasets using Hadoop's MapReduce and Spark</li>
+                                <li>Optimized data architecture using HDFS</li>
+                                <li>Optimized processing tasks within Hadoop and Spark</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+         
+            <!-- Skills Section -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-900 mb-8">Technical Skills</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i data-lucide="code-2" class="text-blue-600"></i>
+                            <h3 class="font-semibold text-gray-900">Languages</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Python</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">R</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">SQL</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Java</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">JavaScript</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">C++</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i data-lucide="brain-circuit" class="text-green-600"></i>
+                            <h3 class="font-semibold text-gray-900">Frameworks & Libraries</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">PyTorch</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Matplotlib</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Scikit-Learn</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">TensorFlow</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Pandas</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">NumPy</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">J2EE Design Patterns</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i data-lucide="cloud" class="text-purple-600"></i>
+                            <h3 class="font-semibold text-gray-900">Cloud & DevOps</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">AWS</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Azure</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Jenkins</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Maven</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Docker</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Kubernetes</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">CodePipeline</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">CodeBuild</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">CodeDeploy</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i data-lucide="database" class="text-yellow-600"></i>
+                            <h3 class="font-semibold text-gray-900">Databases</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">MySQL</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">PostgreSQL</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">MongoDB</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">Oracle</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i data-lucide="globe" class="text-red-600"></i>
+                            <h3 class="font-semibold text-gray-900">Web Services</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">RESTful</span>
+                            <span class="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">SOAP</span>
+                            <span class="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">HTTPS</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i data-lucide="wrench" class="text-indigo-600"></i>
+                            <h3 class="font-semibold text-gray-900">Other Tools & Technologies</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Git</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">GitHub</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Kafka</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Tableau</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">MATLAB</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Hadoop</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Spark</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+               <!-- Education Section -->
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-gray-900 mb-8">Education</h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">George Mason University</h3>
+                                <p class="text-gray-600">Master of Science in Data Analytics Engineering</p>
+                            </div>
+                            <div class="text-gray-500">Jan 2022 - May 2023</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">Amrita University</h3>
+                                <p class="text-gray-600">Bachelor of Technology in Electronics and Communication</p>
+                            </div>
+                            <div class="text-gray-500">Jul 2015 - May 2019</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+
+
+        </main>
+
+        <footer class="bg-gray-900 text-white mt-16">
+            <div class="max-w-5xl mx-auto px-4 py-8 text-center">
+                <p>© <script>document.write(new Date().getFullYear())</script> Manish Reddy Kovvuri. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
 </html>
-
- 
-
- 
